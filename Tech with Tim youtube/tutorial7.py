@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-# This code detects faces and eyes in a video stream from the camera and draws rectangles around them.
+# This code detects faces and eyes in a video stream from the camera and draws rectangles around them
 
 cap = cv2.VideoCapture(0)  # Open the default camera
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')  # Load the Haar cascade for face detection
