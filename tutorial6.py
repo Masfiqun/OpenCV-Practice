@@ -1,6 +1,8 @@
 import numpy as np
 import cv2
 
+# This code detects corners in an image and draws lines between them.
+
 img = cv2.imread('assets/chess.png')  # Read the image from the file
 img = cv2.resize(img, (400, 400))  # Resize the image to 400x400 pixels
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)  # Convert the image to grayscale
